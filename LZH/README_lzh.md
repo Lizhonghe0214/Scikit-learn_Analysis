@@ -1,7 +1,7 @@
 ## Scikit_learn库的分析与实践
 #### 作者：李忠赫
 #### github账户：<https://github.com/Lizhonghe0214>
-`LZH`文件夹下包含8个`.py`文件和1个数据集文件夹`datasets`，每个`.py`文件均可独立运行  
+`LZH`文件夹下包含9个`.py`文件和1个数据集文件夹`datasets`，每个`.py`文件均可独立运行  
 `.py`文件包含了对`sklearn`库功能的分析运用以及利用`sklearn`库进行的简单机器学习和深度学习实践
 #### 以下是对具体`.py`文件和数据集的说明
 #### 1. `scikit_learn_data_preprocessing.py`
@@ -88,3 +88,15 @@
   可视化GRU预测出租车费用流量数据<br/>
   <img height="400" src="pictures/figure_11.png" width="600"/><br/>
   <img height="50" src="pictures/figure_14.png" width="500"/><br/>
+***
+#### 9. `sklearn_websit_example.py`
+- 该文件内容是对scikit-learn官网中一示例的复现
+- 详情请见[决策树示例原址](https://scikit-learn.org/dev/auto_examples/tree/plot_iris_dtc.html#sphx-glr-auto-examples-tree-plot-iris-dtc-py)
+***
+#### 10. `green_tripdata_2016-12.csv`
+- 该数据集包含纽约市绿牌出租车在2016年12月的具体出车信息
+- 包含特征： VendorID,lpep_pickup_datetime,lpep_dropoff_datetime,store_and_fwd_flag,RatecodeID,PULocationID,DOLocationID,passenger_count,trip_distance,fare_amount,extra,mta_tax,tip_amount,tolls_amount,ehail_fee,improvement_surcharge,total_amount,payment_type,trip_type
+***
+#### 11. `logging_data.xlsx`和`logging_test_data.xlsx`
+- logging_data.xlsx数据集包含2-6井的多种测井曲线数据，用于模型的训练
+- logging_test_data.xlsx数据集包含2-4井的多种测井曲线数据，用于模型的测试
